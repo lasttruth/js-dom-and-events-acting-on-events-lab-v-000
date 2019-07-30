@@ -4,8 +4,6 @@ function preventRefreshOnSubmit(){
     })
 }
 
-preventRefreshOnSubmit()
-
 function retrieveEmployeeInformation() {
   return $(':input').val();
 }
@@ -28,3 +26,5 @@ function clearEmployeeListOnLinkClick() {
     $('.employee-list').empty();
   })
 }
+
+preventRefreshOnSubmit()
